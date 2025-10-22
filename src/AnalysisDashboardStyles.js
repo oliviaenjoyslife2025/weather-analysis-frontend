@@ -1,0 +1,140 @@
+const styles = {
+    container: {
+        minHeight: '100vh',
+        backgroundColor: '#ebf1f5', 
+        fontFamily: 'Roboto, Segoe UI, Arial, sans-serif',
+    },
+    header: {
+        backgroundColor: '#0a3d62', 
+        color: 'white',
+        padding: '20px 40px',
+        boxShadow: '0 2px 5px rgba(0,0,0,0.2)',
+    },
+    headerTitle: {
+        margin: 0,
+        fontSize: '1.8em',
+        fontWeight: 300,
+    },
+    mainContent: {
+        display: 'flex',
+        padding: '30px',
+        gap: '30px',
+        maxWidth: '1200px', 
+        margin: '0 auto',
+    },
+    inputCard: {
+        width: '350px',
+        minWidth: '300px',
+        backgroundColor: 'white',
+        padding: '25px',
+        borderRadius: '8px',
+        boxShadow: '0 4px 10px rgba(0,0,0,0.08)',
+        height: 'fit-content',
+        borderTop: '5px solid #107a8b', 
+    },
+    cardTitle: {
+        color: '#107a8b',
+        borderBottom: '1px solid #eee',
+        paddingBottom: '10px',
+        marginBottom: '20px',
+        fontSize: '1.2em',
+    },
+    formContainer: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '15px',
+    },
+    label: {
+        fontWeight: 600,
+        color: '#333',
+        fontSize: '0.9em',
+    },
+    fileInput: {
+        padding: '10px',
+        border: '1px solid #ccc',
+        borderRadius: '4px',
+        backgroundColor: '#f9f9f9',
+    },
+    button: {
+        padding: '12px 15px',
+        border: 'none',
+        borderRadius: '4px',
+        cursor: 'pointer',
+        fontWeight: 600,
+        transition: 'background-color 0.3s',
+    },
+    primaryButton: {
+        backgroundColor: '#107a8b', 
+        color: 'white',
+        marginTop: '15px',
+    },
+    statusBox: {
+        marginTop: '25px',
+        padding: '15px',
+        backgroundColor: '#f5f5f5',
+        borderRadius: '4px',
+        borderLeft: '4px solid #ccc',
+    },
+    sideInfo: {
+        marginTop: '20px',
+        padding: '10px 0',
+        borderTop: '1px dotted #ccc',
+        fontSize: '0.8em',
+        color: '#777',
+    },
+    resultsPanel: {
+        flexGrow: 1,
+        backgroundColor: 'white',
+        padding: '30px',
+        borderRadius: '8px',
+        boxShadow: '0 4px 10px rgba(0,0,0,0.08)',
+    },
+    resultsTitle: {
+        color: '#0a3d62',
+        borderBottom: '2px solid #ddd',
+        paddingBottom: '10px',
+        marginBottom: '30px',
+        fontSize: '1.5em',
+    },
+    kpiContainer: {
+        display: 'grid',
+        gridTemplateColumns: 'repeat(3, 1fr)',
+        gap: '20px',
+        marginBottom: '40px',
+    },
+    kpiCard: {
+        padding: '20px',
+        border: '1px solid #f0f0f0',
+        borderRadius: '6px',
+        textAlign: 'center',
+        backgroundColor: '#fafafa',
+    },
+    kpiLabel: {
+        margin: 0,
+        fontSize: '0.9em',
+        color: '#777',
+        textTransform: 'uppercase',
+        marginBottom: '5px',
+    },
+    kpiValue: {
+        margin: '5px 0 0 0',
+        fontSize: '1.6em',
+    },
+    chartSection: {
+        marginTop: '20px',
+        paddingTop: '20px',
+        borderTop: '1px solid #eee',
+    },
+    chartTitle: {
+        color: '#333',
+        marginBottom: '20px',
+        fontSize: '1.2em',
+    },
+    tooltip: {
+        backgroundColor: 'rgba(255, 255, 255, 0.9)',
+        border: '1px solid #ccc',
+        padding: '10px',
+    }
+};
+
+export default styles; 
